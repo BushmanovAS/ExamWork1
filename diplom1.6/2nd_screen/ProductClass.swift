@@ -58,7 +58,17 @@ class Products {
         }
         return productImages1
 }
-
+    func metod3() -> [Offers] {
+        
+        var offers1: [Offers] = []
+        
+        for item in offers{
+            if let prod = Offers(data: item as! NSDictionary)
+            {offers1.append(prod)}
+        }
+        return offers1
+    
+    }
 }
 
 

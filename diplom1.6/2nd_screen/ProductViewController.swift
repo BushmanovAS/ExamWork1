@@ -23,6 +23,13 @@ class ProductViewController: UIViewController {
             self.collectionView.reloadData()
     }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? ProductCardViewController, segue.identifier == "ShowProductCard",
+            let item = sender as? Products {
+            vc.product = item
+        }
+    }
 }
 
 
@@ -40,20 +47,15 @@ extension ProductViewController: UICollectionViewDelegateFlowLayout, UICollectio
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ProductCell", for: indexPath) as! ProductCollectionViewCell
         let model = products[indexPath.row]
         cell.productNameLabel.text = model.name
-        cell.productPriceLabel.text = "\(model.price) ₽"
+        cell.productPriceLabel.text = "\(Int(Double(model.price) ?? 0)) ₽"
         
         guard let imageURL = URL(string:("http://blackstarshop.ru/" + model.mainImage)) else {return cell}
         cell.productImage.sd_setImage(with: imageURL, completed: nil)
-        
-        func segue() {
-            performSegue(withIdentifier: "ShowProductCard", sender: indexPath.row)
-        }
-        
-        
+ 
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "ShowProductCard", sender: indexPath.row)
+        performSegue(withIdentifier: "ShowProductCard", sender: products[indexPath.row])
     }
 }

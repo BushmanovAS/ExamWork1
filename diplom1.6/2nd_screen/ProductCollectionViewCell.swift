@@ -10,6 +10,7 @@ import UIKit
 
 class ProductCollectionViewCell: UICollectionViewCell {
     
+    
     let a = ProductViewController()
     
     @IBOutlet weak var productNameLabel: UILabel!
