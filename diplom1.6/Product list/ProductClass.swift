@@ -18,10 +18,9 @@ class Products {
     var productImages: NSArray
     var offers: NSArray
     var price: String
-//    var attributes: NSArray
- 
     
     init?(data: NSDictionary) {
+        
         guard let name = data["name"] as? String,
             let article = data["article"] as? String,
             let description = data["description"] as? String,
@@ -31,8 +30,9 @@ class Products {
             let price = data["price"] as? String,
             let productImages = data["productImages"] as? NSArray,
             let offers = data["offers"] as? NSArray
-//        let attributes = data["attributes"] as? NSArray
-            else {return nil}
+        else {
+            return nil
+        }
         
         self.name = name
         self.article = article
@@ -43,44 +43,36 @@ class Products {
         self.productImages = productImages
         self.offers = offers
         self.price = price
-//        self.attributes = attributes
-        
-        
     }
     
     func metod2() -> [ProductImages] {
-        
         var productImages1: [ProductImages] = []
         
         for item in productImages{
-            if let prod = ProductImages(data: item as! NSDictionary)
-            {productImages1.append(prod)}
+            if let prod = ProductImages(data: item as! NSDictionary) {
+                productImages1.append(prod)
+            }
         }
         return productImages1
 }
+    
     func metod3() -> [Offers] {
-        
         var offers1: [Offers] = []
         
         for item in offers{
-            if let prod = Offers(data: item as! NSDictionary)
-            {offers1.append(prod)}
+            if let prod = Offers(data: item as! NSDictionary) {
+                offers1.append(prod)
+            }
         }
         return offers1
-    
     }
 }
-
-
 
 class ProductImages {
     var imageURL: String
     
     init?(data: NSDictionary) {
-        
-        guard let imageURL = data["imageURL"] as? String
-            else{return nil}
-        
+        guard let imageURL = data["imageURL"] as? String else { return nil }
         self.imageURL = imageURL
     }
 }
@@ -92,27 +84,12 @@ class Offers {
     init?(data: NSDictionary) {
         
         guard let size = data["size"] as? String,
-            let quantity = data["quantity"] as? String
-            else{return nil}
+              let quantity = data["quantity"] as? String
+        else {
+            return nil
+        }
         
         self.size = size
         self.quantity = quantity
-}
-}
-/*
-class Attributes {
-{
-    "Декоративный элемент": "принт"
-    },
-    {
-    "Рисунок": " надпись"
-    },
-    {
-    "Сезон": "круглогодичный"
-    },
-    {
-    "Страна производителя": "Россия"
     }
-    ]
 }
-*/

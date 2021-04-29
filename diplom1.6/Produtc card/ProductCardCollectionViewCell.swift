@@ -8,7 +8,6 @@
 
 import UIKit
 
-class ProductCardCollectionViewCell: UICollectionViewCell {
-    
+class ProductCardCollectionViewCell: UICollectionViewCell {    
     @IBOutlet weak var productCardImage: UIImageView!
 }

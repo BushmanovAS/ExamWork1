@@ -3,25 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B71D9F67387803A35A69AA3 /* Pods_diplom1_6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACDDED5CDA2DF04112DB9FA /* Pods_diplom1_6.framework */; };
 		C314DFB624A8D78600CC4C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314DFB524A8D78600CC4C43 /* AppDelegate.swift */; };
-		C314DFB824A8D78600CC4C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314DFB724A8D78600CC4C43 /* ViewController.swift */; };
+		C314DFB824A8D78600CC4C43 /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314DFB724A8D78600CC4C43 /* CategoryController.swift */; };
 		C314DFBB24A8D78600CC4C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C314DFB924A8D78600CC4C43 /* Main.storyboard */; };
 		C314DFBD24A8D78700CC4C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C314DFBC24A8D78700CC4C43 /* Assets.xcassets */; };
 		C314DFC024A8D78700CC4C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C314DFBE24A8D78700CC4C43 /* LaunchScreen.storyboard */; };
+		C314DFC824A8DBC000CC4C43 /* CategoryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314DFC724A8DBC000CC4C43 /* CategoryClass.swift */; };
+		C314DFCA24A8DBEB00CC4C43 /* CategoriesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314DFC924A8DBEB00CC4C43 /* CategoriesLoader.swift */; };
+		C314DFCC24A8DC3700CC4C43 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314DFCB24A8DC3700CC4C43 /* CategoryTableViewCell.swift */; };
+		C31D496B24D6A66B00F8C734 /* ProductCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31D496A24D6A66B00F8C734 /* ProductCardViewController.swift */; };
+		C321F979253B197B0033EBF9 /* ProductOffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C321F978253B197B0033EBF9 /* ProductOffersTableViewCell.swift */; };
+		C3701DD6254738D000591990 /* TrashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3701DD5254738D000591990 /* TrashTableViewCell.swift */; };
+		C3701DD82547443000591990 /* ProductCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3701DD72547443000591990 /* ProductCardCollectionViewCell.swift */; };
+		C379218524C46E9700643B1E /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379218424C46E9700643B1E /* ProductCollectionViewCell.swift */; };
+		C379218724C4737C00643B1E /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379218624C4737C00643B1E /* ProductViewController.swift */; };
+		C379218924C476F500643B1E /* ProductClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379218824C476F500643B1E /* ProductClass.swift */; };
+		C379218B24C4770600643B1E /* ProductsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379218A24C4770600643B1E /* ProductsLoader.swift */; };
+		C3860CEA252E3536008D7C8E /* TrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3860CE9252E3536008D7C8E /* TrashViewController.swift */; };
+		C3CED68C2544361B001642B9 /* RealmFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CED68B2544361B001642B9 /* RealmFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EBA34747966065A73528E8C /* Pods-diplom1.6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diplom1.6.debug.xcconfig"; path = "Target Support Files/Pods-diplom1.6/Pods-diplom1.6.debug.xcconfig"; sourceTree = "<group>"; };
+		852B7C4E5995CF0A759F3729 /* Pods-diplom1.6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diplom1.6.release.xcconfig"; path = "Target Support Files/Pods-diplom1.6/Pods-diplom1.6.release.xcconfig"; sourceTree = "<group>"; };
+		BACDDED5CDA2DF04112DB9FA /* Pods_diplom1_6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_diplom1_6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C314DFB224A8D78600CC4C43 /* diplom1.6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diplom1.6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C314DFB524A8D78600CC4C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C314DFB724A8D78600CC4C43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C314DFB724A8D78600CC4C43 /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryController.swift; path = ../../Pods/CategoryController.swift; sourceTree = "<group>"; };
 		C314DFBA24A8D78600CC4C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C314DFBC24A8D78700CC4C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C314DFBF24A8D78700CC4C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C314DFC124A8D78700CC4C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C314DFC724A8DBC000CC4C43 /* CategoryClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryClass.swift; sourceTree = "<group>"; };
+		C314DFC924A8DBEB00CC4C43 /* CategoriesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesLoader.swift; sourceTree = "<group>"; };
+		C314DFCB24A8DC3700CC4C43 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		C31D496A24D6A66B00F8C734 /* ProductCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardViewController.swift; sourceTree = "<group>"; };
+		C321F978253B197B0033EBF9 /* ProductOffersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOffersTableViewCell.swift; sourceTree = "<group>"; };
+		C3701DD5254738D000591990 /* TrashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTableViewCell.swift; sourceTree = "<group>"; };
+		C3701DD72547443000591990 /* ProductCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		C379218424C46E9700643B1E /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		C379218624C4737C00643B1E /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		C379218824C476F500643B1E /* ProductClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductClass.swift; sourceTree = "<group>"; };
+		C379218A24C4770600643B1E /* ProductsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsLoader.swift; sourceTree = "<group>"; };
+		C3860CE9252E3536008D7C8E /* TrashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashViewController.swift; sourceTree = "<group>"; };
+		C3CED68B2544361B001642B9 /* RealmFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B71D9F67387803A35A69AA3 /* Pods_diplom1_6.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA9AF13519AE26C70C7EF1DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BACDDED5CDA2DF04112DB9FA /* Pods_diplom1_6.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C314DFA924A8D78600CC4C43 = {
 			isa = PBXGroup;
 			children = (
 				C314DFB424A8D78600CC4C43 /* diplom1.6 */,
 				C314DFB324A8D78600CC4C43 /* Products */,
+				E396805486FFDB591412A346 /* Pods */,
+				BA9AF13519AE26C70C7EF1DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +96,67 @@
 			isa = PBXGroup;
 			children = (
 				C314DFB524A8D78600CC4C43 /* AppDelegate.swift */,
-				C314DFB724A8D78600CC4C43 /* ViewController.swift */,
+				C37AF2E1251939C8008036D6 /* Category list */,
+				C37AF2E2251939D6008036D6 /* Product list */,
+				C37AF2E3251939DF008036D6 /* Produtc card */,
+				C3860CE8252E348B008D7C8E /* Trash */,
 				C314DFB924A8D78600CC4C43 /* Main.storyboard */,
-				C314DFBC24A8D78700CC4C43 /* Assets.xcassets */,
 				C314DFBE24A8D78700CC4C43 /* LaunchScreen.storyboard */,
+				C314DFBC24A8D78700CC4C43 /* Assets.xcassets */,
 				C314DFC124A8D78700CC4C43 /* Info.plist */,
 			);
 			path = diplom1.6;
+			sourceTree = "<group>";
+		};
+		C37AF2E1251939C8008036D6 /* Category list */ = {
+			isa = PBXGroup;
+			children = (
+				C314DFB724A8D78600CC4C43 /* CategoryController.swift */,
+				C314DFC724A8DBC000CC4C43 /* CategoryClass.swift */,
+				C314DFC924A8DBEB00CC4C43 /* CategoriesLoader.swift */,
+				C314DFCB24A8DC3700CC4C43 /* CategoryTableViewCell.swift */,
+			);
+			path = "Category list";
+			sourceTree = "<group>";
+		};
+		C37AF2E2251939D6008036D6 /* Product list */ = {
+			isa = PBXGroup;
+			children = (
+				C379218624C4737C00643B1E /* ProductViewController.swift */,
+				C379218824C476F500643B1E /* ProductClass.swift */,
+				C379218A24C4770600643B1E /* ProductsLoader.swift */,
+				C379218424C46E9700643B1E /* ProductCollectionViewCell.swift */,
+			);
+			path = "Product list";
+			sourceTree = "<group>";
+		};
+		C37AF2E3251939DF008036D6 /* Produtc card */ = {
+			isa = PBXGroup;
+			children = (
+				C31D496A24D6A66B00F8C734 /* ProductCardViewController.swift */,
+				C3701DD72547443000591990 /* ProductCardCollectionViewCell.swift */,
+				C321F978253B197B0033EBF9 /* ProductOffersTableViewCell.swift */,
+				C3CED68B2544361B001642B9 /* RealmFile.swift */,
+			);
+			path = "Produtc card";
+			sourceTree = "<group>";
+		};
+		C3860CE8252E348B008D7C8E /* Trash */ = {
+			isa = PBXGroup;
+			children = (
+				C3860CE9252E3536008D7C8E /* TrashViewController.swift */,
+				C3701DD5254738D000591990 /* TrashTableViewCell.swift */,
+			);
+			path = Trash;
+			sourceTree = "<group>";
+		};
+		E396805486FFDB591412A346 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EBA34747966065A73528E8C /* Pods-diplom1.6.debug.xcconfig */,
+				852B7C4E5995CF0A759F3729 /* Pods-diplom1.6.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C314DFC424A8D78700CC4C43 /* Build configuration list for PBXNativeTarget "diplom1.6" */;
 			buildPhases = (
+				7EA57E830FAB97D20761AE08 /* [CP] Check Pods Manifest.lock */,
 				C314DFAE24A8D78600CC4C43 /* Sources */,
 				C314DFAF24A8D78600CC4C43 /* Frameworks */,
 				C314DFB024A8D78600CC4C43 /* Resources */,
+				04C12E9D38D00BE45901B612 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +227,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04C12E9D38D00BE45901B612 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-diplom1.6/Pods-diplom1.6-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-diplom1.6/Pods-diplom1.6-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-diplom1.6/Pods-diplom1.6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA57E830FAB97D20761AE08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-diplom1.6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C314DFAE24A8D78600CC4C43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C314DFB824A8D78600CC4C43 /* ViewController.swift in Sources */,
+				C3701DD6254738D000591990 /* TrashTableViewCell.swift in Sources */,
+				C321F979253B197B0033EBF9 /* ProductOffersTableViewCell.swift in Sources */,
+				C31D496B24D6A66B00F8C734 /* ProductCardViewController.swift in Sources */,
+				C314DFCC24A8DC3700CC4C43 /* CategoryTableViewCell.swift in Sources */,
+				C314DFB824A8D78600CC4C43 /* CategoryController.swift in Sources */,
+				C314DFC824A8DBC000CC4C43 /* CategoryClass.swift in Sources */,
+				C379218724C4737C00643B1E /* ProductViewController.swift in Sources */,
+				C379218924C476F500643B1E /* ProductClass.swift in Sources */,
+				C3701DD82547443000591990 /* ProductCardCollectionViewCell.swift in Sources */,
+				C379218B24C4770600643B1E /* ProductsLoader.swift in Sources */,
+				C3860CEA252E3536008D7C8E /* TrashViewController.swift in Sources */,
+				C314DFCA24A8DBEB00CC4C43 /* CategoriesLoader.swift in Sources */,
+				C3CED68C2544361B001642B9 /* RealmFile.swift in Sources */,
+				C379218524C46E9700643B1E /* ProductCollectionViewCell.swift in Sources */,
 				C314DFB624A8D78600CC4C43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +432,7 @@
 		};
 		C314DFC524A8D78700CC4C43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBA34747966065A73528E8C /* Pods-diplom1.6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +450,7 @@
 		};
 		C314DFC624A8D78700CC4C43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852B7C4E5995CF0A759F3729 /* Pods-diplom1.6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
